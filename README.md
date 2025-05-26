@@ -111,7 +111,6 @@ diff main_O0.ll main_O2.ll
 ```bash
 opt -passes=dot-cfg -disable-output main_O2.ll
 ```
-![dot](/cr_dot.png)
 
 Создается DOT-файл:
 - `.main.dot` — для функции `main`.
@@ -121,7 +120,7 @@ opt -passes=dot-cfg -disable-output main_O2.ll
 dot -Tpng .main.dot -o cfg_main.png
 ```
 
-![cfg_main](/cfg.png)
+![cfg_main](/cfg.main.png)
 
 
 
